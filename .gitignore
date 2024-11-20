@@ -1,0 +1,15 @@
+tt.*
+.tests
+doc/tags
+debug
+.repro
+foo.*
+*.log
+data
+
+# Ignore swap files
+*.swp
+# Ignore backup files
+*.bak
+# Ignore undo history files
+*.undo
