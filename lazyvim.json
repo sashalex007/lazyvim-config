@@ -1,9 +1,9 @@
 {
   "extras": [
-    "lazyvim.plugins.extras.editor.mini-files"
+    "lazyvim.plugins.extras.ui.mini-animate"
   ],
   "news": {
-    "NEWS.md": "7107"
+    "NEWS.md": "7429"
   },
-  "version": 6
+  "version": 7
 }
