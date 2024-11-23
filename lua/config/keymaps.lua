@@ -55,12 +55,15 @@ map("i", "<D-z>", "<C-o>u", { noremap = true, silent = true })
 map("i", "<D-S-z>", "<C-o><C-r>", { noremap = true, silent = true })
 map("i", "<D-s>", "<C-o>:w<CR>", { noremap = true, silent = true })
 
--- Integrated termial
-map("n", "<D-CR>", "<cmd>ToggleTerm<cr>", { noremap = true, silent = true })
+-- Scrolling
+map("n", "<PageUp>", "<C-u>", { noremap = true, silent = true })
+map("n", "<PageDown>", "<C-d>", { noremap = true, silent = true })
+map("v", "<PageUp>", "<C-u>", { noremap = true, silent = true })
+map("v", "<PageDown>", "<C-d>", { noremap = true, silent = true })
 
 -- Fallback Control mappings for terminal use
 -- map("v", "<C-c>", '"+y', { noremap = true, silent = true })
 -- map("v", "<C-x>", '"+x', { noremap = true, silent = true })
 -- map("v", "<C-v>", '"+P', { noremap = true, silent = true })
 -- map("n", "<C-v>", '"+P', { noremap = true, silent = true })
--- map("i", "<C-v>", "<C-r>+", { noremap = true, silent = true })
+-- map("i",----u
